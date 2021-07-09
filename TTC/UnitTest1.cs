@@ -27,7 +27,7 @@ namespace TTC
                 foreach (string line in lines)
                     outputFile.WriteLine(line);
             }
-            Assert.Pass();//
+            Assert.IsTrue(false);//
         }
     }
 }
